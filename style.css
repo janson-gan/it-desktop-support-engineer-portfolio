@@ -1,0 +1,168 @@
+/* Universal Reset & Dark Theme */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #121214;
+    color: #e4e6eb;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background-color: #1a1a1e;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 2px solid #2f3037;
+}
+
+.name_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #a0a5b1;
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.contact-links a {
+    color: #4da6ff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.contact-links a:hover {
+    text-decoration: underline;
+}
+
+/* Section styling */
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #4da6ff;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+/* Skills Matrix Grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.skill-category {
+    background-color: #1a1a1e;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #2f3037;
+}
+
+.skill-category h3 {
+    color: #4da6ff;
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+}
+
+.skill-category ul {
+    list-style-type: none;
+}
+
+.skill-category li {
+    margin-bottom: 8px;
+    color: #c9d1d9;
+}
+
+/* Project Cards & Experience Cards */
+.project-card, .experience-card {
+    background-color: #1a1a1e;
+    padding: 25px;
+    border-radius: 6px;
+    border: 1px solid #2f3037;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.project-card h3, .experience-card h3 {
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.exp-meta {
+    color: #4da6ff;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.project-card p, .experience-card p {
+    margin-bottom: 12px;
+    color: #c9d1d9;
+}
+
+.detail-column {
+    margin-bottom: 12px;
+}
+
+/* Training Provider Badges */
+.badge {
+    display: inline-block;
+    background-color: #2f3037;
+    color: #a0a5b1;
+    font-size: 0.75rem;
+    padding: 3px 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: 1px solid #444;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4da6ff;
+    color: #121214;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #358ee0;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #666;
+    font-size: 0.9rem;
+    border-top: 1px solid #2f3037;
+}
