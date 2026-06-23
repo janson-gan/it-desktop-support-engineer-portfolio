@@ -51,8 +51,8 @@ This portfolio showcases my IT and desktop support capabilities, combining corpo
 ## Contact
 
 - Email: janson-gan@hotmail.com
-- LinkedIn: https://linkedin.com
-- GitHub: https://github.com
+- LinkedIn: www.linkedin.com/in/jansongan
+- GitHub: https://github.com/janson-gan
 
 ## Built With
 
