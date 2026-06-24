@@ -18,6 +18,18 @@ body {
     padding: 20px;
 }
 
+.avatar {
+    width: 200px;
+    height: 200px;
+}
+.avatar img {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3b82f6;
+    box-shadow: 3px 3px 18px rgba(255, 255, 255, 0.25);
+}
+
 /* Header styling */
 header {
     background-color: #1a1a1e;
@@ -33,16 +45,22 @@ header {
     gap: 32px;
 }
 
+.name {
+    padding: 0;
+    margin: 0;
+}
+
 header h1 {
     color: #ffffff;
     font-size: 2.5rem;
-    margin-bottom: 10px;
 }
 
-header p {
+.header_p {
     color: #a0a5b1;
     font-size: 1.1rem;
-    margin-bottom: 15px;
+    margin: 15px auto;
+    max-width: 560px;
+    
 }
 
 .contact-links a {
@@ -165,4 +183,11 @@ footer {
     color: #666;
     font-size: 0.9rem;
     border-top: 1px solid #2f3037;
+}
+
+/* Responsive mobile */
+@media (max-width: 600px) {
+    .name_container {
+        flex-direction: column;
+    }
 }
