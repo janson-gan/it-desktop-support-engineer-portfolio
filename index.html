@@ -200,10 +200,13 @@
 
       <footer>
         <p>
-          Ready to support teams with technical service, strong communication,
-          and a practical bootcamp foundation.
+          &copy; <span id="year"></span> Janson Gan | Ready to support teams
+          with technical service | All rights reserved.
         </p>
       </footer>
+      <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+      </script>
     </div>
   </body>
 </html>
