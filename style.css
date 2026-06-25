@@ -146,6 +146,10 @@ h2 {
     margin-bottom: 12px;
 }
 
+.detail-column li {
+    margin-bottom: 16px;
+}
+
 /* Training Provider Badges */
 .badge {
     display: inline-block;
